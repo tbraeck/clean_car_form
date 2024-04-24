@@ -12,6 +12,38 @@ code {
     monospace;
 }
 
+.home {
+  background-image: url('../public/colorado_road.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.goToBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%; /* Push to the bottom */
+  margin-bottom: 20px;
+}
+
+.goToBtn button {
+  height: 100px; /* Increase button height */
+  width: 450px; /* Increase button width */
+  font-size: 30px; /* Increase font size */
+  padding: 10px; /* Increase padding */
+  background-color: rgba(106, 116, 106, 0.6); /* Reduce opacity */
+  color: white;
+  text-decoration: bold;
+  border: 3px solid #3fd23f; /* Add small green border */
+  border-radius: 20px; /* Add border radius */
+}
+
+.goToBtn button :hover {
+}
 
 .header {
   box-sizing: border-box;
@@ -20,23 +52,31 @@ code {
   justify-content: space-between;
   align-items: center;
   padding: 1em;
-  margin-bottom: 2em;
   background-color: rgb(61, 60, 59);
   color: #f5f5f5;
+  position: sticky; /* Keep the header at the top */
+  top: 0; /* Stick to the top */
 }
 
-.header h3 {
-  align-content: left;
-/* justify-content: left; */
+.header h1 {
+  margin: 0; /* Remove default margin */
 }
 
-.headImg{
+.headImg {
   height: 70px;
   padding-right: 30px;
   padding-left: 30px;
 }
 
-.btnLogin{
-margin-left: auto;
-padding-right: 40px;
+.btnLogin {
+  margin-left: auto;
+  margin-right: 20px;
+  height: 35px;
+  width: 75px;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  background-color: rgb(63, 210, 63);
+  color: white;
+  text-decoration: bold;
+  border-radius: 10px;
 }

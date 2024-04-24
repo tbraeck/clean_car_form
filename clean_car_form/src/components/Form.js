@@ -4,7 +4,10 @@ const Form = () => {
   return (
     <div>
         <form>
-          <input type="text" placeholder=''></input>
+          <input type="text" placeholder='first name'></input>
+          <input type="text" placeholder='last name'></input>
+          <input type="text" placeholder='phone number'></input>
+
         </form>
     </div>
   )

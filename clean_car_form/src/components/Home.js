@@ -1,12 +1,15 @@
 import React from 'react'
 import Header from './Header'
+import GoToFormButton from './GoToFormButton'
 
 const Home = () => {
   return (
     
-    <div>
+    <div className='home'>
         <Header/>
-      <h1>Home is here</h1>
+        <div className='goToBtn'>
+          <GoToFormButton/>
+        </div>
     </div>
   )
 }
