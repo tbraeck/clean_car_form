@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div>
+    <div className='formContainer'>
         <form>
           <input type="text" placeholder='first name'></input>
           <input type="text" placeholder='last name'></input>
