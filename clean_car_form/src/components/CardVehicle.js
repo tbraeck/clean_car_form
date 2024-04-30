@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 
 const CardVehicle = ({ name, id, image }) => {
   const navigate = useNavigate();
-const carImage =  '../public/ev-car.png';
+const carImage =  'ev-car.png';
   return (
     <main>
       {/* <section style={{ backgroundImage: `url(${vehicleImgDefault})` }} className={styles['img-vehicle-default']}

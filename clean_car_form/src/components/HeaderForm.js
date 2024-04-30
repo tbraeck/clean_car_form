@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import CardVehicle from './CardVehicle';
 
 const HeaderForm = () => {
   const [selectedLanguage, setSelectedLanguage] = useState('English');
@@ -41,10 +40,7 @@ const externalURL = 'https://driveelectriccolorado.org/';
           <option value="French">French</option>
         </select>
       </div>
-      <div>
-        <CardVehicle/>
-        <CardVehicle/>
-      </div>
+     
 
     </div>
   )

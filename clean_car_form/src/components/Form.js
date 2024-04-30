@@ -1,16 +1,21 @@
 import React from 'react'
 import HeaderForm from './HeaderForm'
+import CardVehicle from './CardVehicle'
+import TestDriveFormSection from './TestDriveFormSection'
+import CustomerInfoSection from './CustomerInfoSection'
+
 
 const Form = () => {
   return (
     <div className='formContainer'>
       <HeaderForm/>
-        <form>
-          <input type="text" placeholder='first name'></input>
-          <input type="text" placeholder='last name'></input>
-          <input type="text" placeholder='phone number'></input>
-
-        </form>
+      <TestDriveFormSection/>
+      <CustomerInfoSection/>
+       
+        <div className=''>
+        <CardVehicle/>
+        <CardVehicle/>
+      </div>
     </div>
   )
 }

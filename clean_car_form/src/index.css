@@ -162,3 +162,69 @@ height: 100vh;
 .languageSelect{
   margin-right: 20px;
 }
+
+.test-drive-section,
+.customer-info-section {
+  margin-bottom: 20px;
+}
+
+/* Common styles for section headers */
+.test-drive-header,
+.customer-info-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Common styles for section titles */
+.test-drive-title,
+.customer-info-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 12px;
+  background-color: #f0f0f0; /* Default background color */
+  border-radius: 5px;
+  min-width: 900px; /* Minimum width for the colorful band */
+}
+
+/* Styling for the colorful band behind the title */
+.test-drive-title::before,
+.customer-info-title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 6px; /* Width of the colorful band */
+  background-color: #4caf50; /* Change color as needed */
+  border-radius: 5px 0 0 5px;
+}
+
+/* Section content styles */
+.section-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Form group styles */
+.form-group {
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select {
+  width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
