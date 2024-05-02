@@ -17,15 +17,15 @@ const Form = () => {
       <CarRentalIcon color='secondary' sx={{ fontSize: 100}}/>
       <TestDriveFormSection/>
       <CustomerInfoSection/>
-      <Button variant='contained' style={{
+      {/* <Button variant='contained' style={{
           backgroundColor: '#4681f4', 
           color: 'white'
-        }}>Click Me!</Button>
-        <FormControl>
+        }}>Click Me!</Button> */}
+        {/* <FormControl>
           <FormLabel>Enter Name</FormLabel>
           <TextField placeholder='Write you name here'></TextField>
-          <Button>Submit</Button>
-        </FormControl>
+          <Button>Submit</Button> */}
+        {/* </FormControl> */}
         <ItemSection/>
         {/* <div className=''>
         <CardVehicle/>

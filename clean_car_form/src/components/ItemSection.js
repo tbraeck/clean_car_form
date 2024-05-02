@@ -8,19 +8,19 @@ const ItemSection = () => {
   const dummyVehicles = [
     {
       id: 1,
-      title: "Car",
+      title: "E-Car",
       image: "car.jpg",
       cost: "$50/day"
     },
     {
       id: 2,
-      title: "Truck",
+      title: "E-Truck",
       image: "https://static01.nytimes.com/newsgraphics/2023-02-14-big-evs/a09067a7b772d4328be9141db7df9f91b33c0e04/_assets/cars-rivian-rivian.jpg",
       cost: "$80/day"
     },
     {
       id: 3,
-      title: "Van",
+      title: "E-Van",
       image: "van.jpg",
       cost: "$80/day"
     },

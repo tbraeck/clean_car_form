@@ -65,8 +65,9 @@ const VehicleCard = ({ vehicle }) => {
             src={vehicle.image}
             alt={vehicle.title}
             className="vehicle-image"
-            style={{ width: "250px", height: "auto", borderRadius: "8px" }} // Example custom styles
-          />          <div className="vehicle-details">
+            style={{ width: "250px", height: "auto", borderRadius: "8px" }}
+          />          
+          <div className="vehicle-details">
             <div className="cost">Cost: {vehicle.cost}</div>
             <div className="action-buttons">
               <button className="book-button" onClick={handleBookClick}>
