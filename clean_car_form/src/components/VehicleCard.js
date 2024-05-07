@@ -65,7 +65,7 @@ const VehicleCard = ({ vehicle }) => {
             src={vehicle.image}
             alt={vehicle.title}
             className="vehicle-image"
-            style={{ width: "250px", height: "auto", borderRadius: "8px" }}
+            style={{ width: "250px", height: "150px", borderRadius: "8px" }}
           />          
           <div className="vehicle-details">
             <div className="cost">Cost: {vehicle.cost}</div>

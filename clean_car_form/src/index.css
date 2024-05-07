@@ -205,6 +205,8 @@ height: 100vh;
   width: 6px; /* Width of the colorful band */
   background-color: #4caf50; /* Change color as needed */
   border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
 }
 
 /* Section content styles */

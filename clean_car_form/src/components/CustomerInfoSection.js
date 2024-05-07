@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const CustomerInfoSection = () => {
   const [isOpen, setIsOpen] = useState(true); // State to manage section collapse/expand
@@ -18,11 +19,14 @@ const CustomerInfoSection = () => {
   };
 
   return (
-    <div className="customer-info-section"> {/* Updated class name */}
-      <div className="customer-info-header" onClick={toggleSection}> {/* Updated class name */}
-        <div className="customer-info-title">Customer Information</div> {/* Updated class name */}
-        <div className="collapsible-arrow">{isOpen ? "▼" : "▲"}</div>
-      </div>
+    <div className="customer-info-section" style={{justifyContent: 'center'}}> {/* Updated class name */}
+      <div className="customer-info-header" onClick={toggleSection}>
+    <div className="customer-info-title" >
+      <AccountCircleIcon style={{ color: 'red', marginRight: '10px' }} />
+      Customer Information
+    </div>
+    <div className="collapsible-arrow">{isOpen ? "▼" : "▲"}</div>
+  </div>
       {isOpen && (
         <div className="section-content"> {/* Updated class name */}
           <div className="form-group">

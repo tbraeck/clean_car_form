@@ -6,10 +6,10 @@ const Home = () => {
   return (
     
     <div className='home'>
-        <Header/>
-        <div className='goToBtn'>
-          <GoToFormButton/>
-        </div>
+      <Header/>
+      <div className='goToBtn'>
+        <GoToFormButton/>
+      </div>
     </div>
   )
 }
